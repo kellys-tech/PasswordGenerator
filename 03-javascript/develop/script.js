@@ -16,7 +16,7 @@ document.getElementById("generate").addEventListener("click", writePassword);
 
 
 
-//function for the generate password 
+//function for generating the password
 function generatePassword (){ 
  
     var numChar = prompt ("How many characters would you like your password to be? Enter a number between 8 - 128.")
@@ -58,9 +58,9 @@ function generatePassword (){
       console.log(passArray)
     }
     
-      if (!special && !lowercase && !uppercase && !numbers) {
+      if (!confirmSpecial && !confirmLower && !confirmUpper && !confirmNum) {
       console.log ("the user chose no character options")
-      alert ("You must choose at least one character option. Please try again.");
+      alert ("You must choose at least one character option. Please try again.")
       return;
     }
 
@@ -80,3 +80,5 @@ function generatePassword (){
   }
   // Add event listener to generate button
   generateBtn.addEventListener("click", writePassword);
+
+  // && !lowercase && !uppercase && !numbers)
