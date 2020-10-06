@@ -1,6 +1,6 @@
 # Password Generator
-### Pages:
-### GitHubRepo:
+### Pages: https://kellys-tech.github.io/PasswordGenerator/03-javascript/develop/index.html
+### GitHubRepo:  https://github.com/kellys-tech/PasswordGenerator
 
 
 *This is a password generator. This will generate a random password based on criteria entered by the user
